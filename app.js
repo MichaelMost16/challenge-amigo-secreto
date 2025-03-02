@@ -1,8 +1,4 @@
-// El principal objetivo de este desafío es fortalecer tus habilidades en lógica de programación. 
-// Aquí deberás desarrollar la lógica para resolver el problema.
-
 // En una reunión de amigos, se quiere realizar el sorteo del amigo secreto.
-
 
 let amigo = [];                                                     
 // Genera un array (listado) vacio con la variable amigo //
@@ -28,11 +24,6 @@ function agregarAmigo() { // Genera una función llamada "agregarAmigo" //
     inputAmigo.focus(); // Limpia el input y lo enfoca para que el usuario pueda ingresar otro nombre //
     renderizarAmigo(); // Llama a la función "renderizarAmigo" //
 };
-
-
-
-
-
 
 function renderizarAmigo() {
     let listaAmigos = document.getElementById("listaAmigos");
